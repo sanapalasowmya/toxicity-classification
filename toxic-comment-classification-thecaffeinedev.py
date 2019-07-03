@@ -45,7 +45,7 @@ def printmd(string):
 # In[3]:
 
 
-data_path = r"C:\Users\ishak\OneDrive\Desktop\project bennett\train.csv"
+data_path ="..input/train.csv"
 
 
 # In[4]:
@@ -106,7 +106,7 @@ print(categories)
 
 
 # Calculating number of comments in each category
-
+'''
 counts = []
 for category in categories:
     counts.append((category, data_raw[category].sum()))
@@ -134,7 +134,7 @@ for rect, label in zip(rects, labels):
     ax.text(rect.get_x() + rect.get_width()/2, height + 5, label, ha='center', va='bottom', fontsize=18)
 
 plt.show()
-
+'''
 
 # In[ ]:
 
@@ -143,7 +143,7 @@ plt.show()
 
 
 # In[ ]:
-
+'''
 
 rowSums = data_raw.iloc[:,2:].sum(axis=1)
 multiLabel_counts = rowSums.value_counts()
@@ -166,7 +166,7 @@ for rect, label in zip(rects, labels):
     ax.text(rect.get_x() + rect.get_width()/2, height + 5, label, ha='center', va='bottom')
 
 plt.show()
-
+'''
 
 # In[ ]:
 
