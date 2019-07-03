@@ -25,6 +25,12 @@ Two methods used to represent text:
 Method 1:Using logistic regression
 Method 2:Using simple-lstm
 
+view of the project:
+Part-1: Overview of Multi-label classification.
+Part-2: Problem definition & evaluation metrics.
+Part-3: Exploratory data analysis (EDA).
+Part-4: Data pre-processing.
+Part-5: Multi-label classification techniques.
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
