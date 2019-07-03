@@ -9,8 +9,8 @@ from keras.callbacks import LearningRateScheduler
 
 
 EMBEDDING_FILES = [
-    '../input/crawl-300d-2M.vec',
-    '../input/glove.840B.300d.txt'
+    '../input/fasttext-crawl-300d-2m/crawl-300d-2M.vec',
+    '../input/glove840b300dtxt/glove.840B.300d.txt'
 ]
 NUM_MODELS = 2
 BATCH_SIZE = 512
@@ -70,8 +70,8 @@ def build_model(embedding_matrix, num_aux_targets):
     return model
     
 
-train_df = pd.read_csv('../input/train.csv')
-test_df = pd.read_csv('../input/test.csv')
+train_df = pd.read_csv('../input/jigsaw-unintended-bias-in-toxicity-classification/train.csv')
+test_df = pd.read_csv('../input/jigsaw-unintended-bias-in-toxicity-classification/test.csv')
 
 x_train = train_df[TEXT_COLUMN].astype(str)
 y_train = train_df[TARGET_COLUMN].values
