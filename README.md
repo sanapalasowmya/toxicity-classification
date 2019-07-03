@@ -1,12 +1,18 @@
 ## Welcome to GitHub
+
 ##Toxicity classification
+
 ##kaggle competition
+
 Toxic comments contains foul language, derogatory remarks.This could lead to: 
+
 ○ Spread of hatred
 ○ Spread of racial slur
 ○ Overall tension in communities
 ○ Attack on individual 
+
 It is abuse of freedom of speech.
+
 Thus has to be monitored and censored on leading social networking sites. 
 
 Two methods used to represent text: 
