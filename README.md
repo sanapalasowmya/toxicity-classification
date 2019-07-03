@@ -5,6 +5,7 @@
 ##kaggle competition
 
 Toxic comments contains foul language, derogatory remarks.This could lead to: 
+
 ○ Spread of hatred
 
 ○ Spread of racial slur
