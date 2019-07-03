@@ -1,36 +1,20 @@
-## Welcome to GitHub Pages
+## Welcome to GitHub
+##Toxicity classification
+##kaggle competition
+Toxic comments contains foul language, derogatory remarks.This could lead to: 
+○ Spread of hatred
+○ Spread of racial slur
+○ Overall tension in communities
+○ Attack on individual 
+It is abuse of freedom of speech.
+Thus has to be monitored and censored on leading social networking sites. 
 
-You can use the [editor on GitHub](https://github.com/sanapalasowmya/toxicity-classification/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Two methods used to represent text: 
+1. Bag of words using TF-IDF 
+2. Word Embedding
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sanapalasowmya/toxicity-classification/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Method 1:Using logistic regression
+Method 2:Using simple-lstm
 
 ### Support or Contact
 
